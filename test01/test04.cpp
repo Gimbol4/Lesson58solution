@@ -2,11 +2,15 @@
 using namespace std;
 
 int main() {
-	int* ptr_a = NULL;
+	int number = 10;
+	int* ptr = NULL;
+	ptr = &number;
 
-
-
-	cout << "Value: " << ptr_a << endl;
+	cout << "0) " << ptr << endl;
+	cout << "1) " << ++ptr << endl;
+	cout << "2) " << ++ptr << endl;
+	cout << "3) " << ++ptr << endl;
+	cout << "4) " << ++ptr << endl;
 
 	return 0;
 }
